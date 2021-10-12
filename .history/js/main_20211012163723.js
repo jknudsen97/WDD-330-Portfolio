@@ -1,4 +1,4 @@
-const requestLinks = "js/main.js";
+const requestLinks = "js\main.js";
 
 fetch(requestLinks)
 .then(function (response) {
