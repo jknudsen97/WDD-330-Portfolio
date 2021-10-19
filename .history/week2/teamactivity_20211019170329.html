@@ -2,10 +2,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/script.js" defer></script>
         <title>W02 TeamActivity</title>
     </head>
     <body>
-        <a href="./week02.html">&lt; week02</a>
         <h1>Step 1</h1>
         <form action="submit" title="submit">
             <label>Input any text and it will return it</label><br>
@@ -29,18 +29,11 @@
         </form>
         <h1>Step 3</h1>
         <form action="submit" title="submit">
-            <label>Calculator</label><br>
-            <input type="number" id="inputNum1"><br><br>
-            <input type="number" id="inputNum2"><br><br>
+            <label>Add two numbers to find the sum</label><br>
+            <input type="number" id="inputNum"><br><br>
             <button type="button" id="addnumButton" value="submit" 
-                onclick = "addNum()">+</button>
-            <button type="button" id="subnumButton" value="submit" 
-                onclick = "subNum()">-</button>
-                <button type="button" id="timesButton" value="submit" 
-                onclick = "timesNum()">x</button>
-                <button type="button" id="timesButton" value="submit" 
-                onclick = "divideNum()">÷</button><br><br>
-            <div id="div3">
+                onclick = "sumNum()">Submit</button><br><br>
+            <div id="div2">
                 <label>Output:</label>
             </div>
         </form>
@@ -60,36 +53,13 @@
                 div2.innerText = "Output: " + totalSum;
             }
 
-            function getNum(){
-                const inputNum1 = parseInt(document.getElementById("inputNum1").value);
-                const inputNum2 = parseInt(document.getElementById("inputNum2").value);
-                return [inputNum1, inputNum2];
-            }
-            function displayNum(totalNum){
-                const div3 = document.getElementById("div3");
-                div3.innerHTML = "Output: " + totalNum;
-            }
-            
             function addNum(){
-                const [a, b] = getNum();
-                let totalNum = a + b;
-                displayNum(totalNum);
-            }
+                var inputNum1 = parseInt(document.getElementById("inputNum1").value);
+                var inputNum2 = parseInt(document.getElementById("inputNum2").value);
+                var totalNUm = inputNum1 + inputNum2;
 
-            var subNum = () => {
-                const [a, b] = getNum();
-                let totalNum = a - b;
-                displayNum(totalNum);
-            }
-            let timesNum = function(){
-                const [a, b] = getNum();
-                let totalNum = a * b;
-                displayNum(totalNum);
-            }
-            var divideNum = () =>{
-                const [a, b] = getNum();
-                const totalNum = a / b;
-                displayNum(totalNum);
+                const div3 = document.getElementById("div3");
+                div3.innerHTML = "Output: " +totalNum;
             }
         </script>
     </body>
