@@ -1,0 +1,11 @@
+main{
+    text-align: center;
+}
+
+.assignmentheader{
+    background-color: aquamarine;
+}
+
+#assignments{
+    list-style-type: none;
+}

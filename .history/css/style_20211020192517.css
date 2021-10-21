@@ -1,0 +1,23 @@
+main{
+    text-align: center;
+}
+
+.assignmentheader{
+    background-color: aquamarine;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    width: auto;
+    height: 5px;
+    border: 2px;
+    margin: 5px;
+    background-color: aquamarine;
+}
+
+li:hover{
+    background-color: white;
+}

@@ -1,0 +1,16 @@
+main{
+    text-align: center;
+}
+
+.assignmentheader{
+    background-color: aquamarine;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    border: 2px;
+    margin: 5px;
+}

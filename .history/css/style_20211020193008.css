@@ -1,0 +1,27 @@
+main{
+    text-align: center;
+}
+
+header{
+    color: white;
+    background-color: navy;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    width: fit-content;
+    border: 2px;
+    margin: 5px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+}
+
+li:hover{
+    color: black;
+    background-color: white;
+}
