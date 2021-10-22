@@ -1,0 +1,11 @@
+ul {
+    list-style: none;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+body{
+    text-align: center;
+}
