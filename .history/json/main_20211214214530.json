@@ -57,8 +57,8 @@
       },
 
       {
-         "label": "Week 08 Remote API",
-         "url": "week8/index.html"
+         "label": "Week 08 ",
+         "url": "week8/index.html.html"
       },
 
       {
@@ -67,13 +67,13 @@
       },
 
       {
-         "label": "Week 10 Quakes",
-         "url": "week6/week10.html"
+         "label": "Week 06 ToDo List",
+         "url": "week6/todoList.html"
       },
 
       {
-         "label": "Week 11 Authentication",
-         "url": "week6/week11.html"
+         "label": "Week 06 ToDo List",
+         "url": "week6/todoList.html"
       }
     ]
  }

@@ -1,0 +1,9 @@
+@media only screen and (min-width: 600px) {
+    div.gallery {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #ccc;
+        width: 180px;
+}
+  }

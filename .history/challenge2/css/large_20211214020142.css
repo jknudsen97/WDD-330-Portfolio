@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px) {
+    div.gallery {
+        margin-left: auto;
+        margin-right: auto;
+        margin: 10px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+      }
+  }
