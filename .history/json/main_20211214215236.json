@@ -63,22 +63,17 @@
 
       {
          "label": "Week 09 Sounds",
-         "url": "week9/index-START.html"
+         "url": "week9/week09.html"
       },
 
       {
          "label": "Week 10 Quakes",
-         "url": "week6/teamactivity.html"
+         "url": "week6/week10.html"
       },
 
       {
          "label": "Week 11 Authentication",
          "url": "week6/week11.html"
-      },
-
-      {
-         "label": "Challenge #2",
-         "url": "challenge2/home.html"
       }
     ]
  }
